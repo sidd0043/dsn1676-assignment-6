@@ -52,7 +52,7 @@ div {
   top: calc(50% - 40px);
   width: 80px;
   background-color: hotpink;
-  -webkit-transform: rotate(45deg)
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   transition: all 500ms linear;
 }
