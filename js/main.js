@@ -13,4 +13,7 @@ $btnShowHide.on('click' function (){
 $box.toggleClass('js-btn-show-hide');
 //console.log ('btnShowHide');
 });
-    
+
+$btnMove.on('click', function () {
+ $diamond.toggleClass('js-panel');
+});
