@@ -48,28 +48,37 @@ div {
   transform: rotate(45deg);
   transition: all 500ms linear;
 }
+    
+.js-diamond {
+  right: 3em;
+}
 
 .panel {
   width: 250px;
   top: 50%;
-
+  max-height: 0;
+  overflow:hidden;
   background-color: yellow;
   transform: translateY(-50%);
-
+  transition: all 500ms ease-out;
   color: darkgoldenrod;
   text-align: center;
 }
 
+.js-panel {
+  max-height: 250px;
+}
+    
 .panel h2 {
   margin: 0;
   padding: 3rem 0;
+  overflow:hidden;    
 }
 
 .circle {
   height: 100px;
   top: calc(50% - 50px);
   width: 100px;
-
   background-color: orange;
   border-radius: 50%;
 }
