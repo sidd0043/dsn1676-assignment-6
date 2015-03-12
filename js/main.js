@@ -4,4 +4,6 @@ var $btnMove = $('.btn-move');
 var $diamond = $('.diamond');
 var $btnCollapseExpand = $('.btn-collapse-expand');
 var $panel = $('.panel');
+var $btnBounce = $('.btn-bounce');
+
 
