@@ -82,6 +82,10 @@ div {
   background-color: orange;
   border-radius: 50%;
 }
+    
+.js-circle-bounce {
+  -webkit-animation: circle-bounce 1.5s linear;
+  animation: circle-bounce 1.5s linear;
 
 .list {
   bottom: 1em;
