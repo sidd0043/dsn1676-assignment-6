@@ -86,7 +86,28 @@ div {
 .js-circle-bounce {
   -webkit-animation: circle-bounce 1.5s linear;
   animation: circle-bounce 1.5s linear;
+}
 
+@-webkit-keyframes circle-bounce {
+        
+0%{
+   top: cal(50% - 50px);
+   right: 2rem;
+ }
+40% {
+  top: calc(50% - 40px);
+  right: 3rem;
+ }
+60% {
+  top: calc(50% - 40px);
+  right:4rem;
+ }
+100% {
+  top: calc(50% - 40px);
+  right: 5rem;
+ }
+}
+    
 .list {
   bottom: 1em;
   margin: 0;
@@ -95,7 +116,6 @@ div {
   right: 1em;
   top: 1em;
   width: 250px;
-
   border: 1px solid #ccc;
   overflow: hidden;
   overflow-y: auto;
@@ -103,9 +123,7 @@ div {
 
 .list li {
   padding: 0.5em;
-
   background-color: plum;
   border: 1px solid mediumpurple;
-
   color: mediumpurple;
 }
