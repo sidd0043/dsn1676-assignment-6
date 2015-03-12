@@ -139,6 +139,11 @@ div {
   overflow: hidden;
   overflow-y: auto;
 }
+    
+.js-list-down{
+  -webkit-animation: drop-down 250ms linear;
+  animation: drop-down 250ms linear;
+}
 
 .list li {
   padding: 0.5em;
