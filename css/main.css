@@ -1,4 +1,4 @@
-html {
+btn-append'html {
   background-color: #e2e2e2;
 }
 
@@ -13,7 +13,7 @@ body {
 section {
   padding: 4em 1em;
   position: relative;
-
+  overflow:hidden;
   border-bottom: 1px solid #ccc;
 }
 

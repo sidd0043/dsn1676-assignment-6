@@ -29,3 +29,10 @@ $circle.addClass('js-circle-bounce');
 $circle.on('webkitAnimationEnd animationed', function (){
 $circle.removeClass('js-circle-bounce');
 });
+
+$btnAppend.on('click', function (){
+var $li = $('<li>');
+$li.html('New List Item');
+$list.prepend($li);
+$li.addClass('js-list-down');
+});
