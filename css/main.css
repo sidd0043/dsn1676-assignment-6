@@ -36,14 +36,17 @@ div {
   opacity: 0;
 }
 
+.js-btn-show-hide {
+    opacity: 1;
+
 .diamond {
   height: 80px;
-  right: 2em;
+  right: -10em;
   top: calc(50% - 40px);
   width: 80px;
-
   background-color: hotpink;
   transform: rotate(45deg);
+  transition: all 500ms linear;
 }
 
 .panel {
