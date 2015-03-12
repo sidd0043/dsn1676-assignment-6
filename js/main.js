@@ -8,3 +8,9 @@ var $btnBounce = $('.btn-bounce');
 var $circle = $('.circle');
 var $btnAppend = $('.btn-append');
 var $list = $('.list');
+
+$btnShowHide.on('click' function (){
+$box.toggleClass('js-btn-show-hide');
+//console.log ('btnShowHide');
+});
+    
