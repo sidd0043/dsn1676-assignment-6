@@ -1,4 +1,10 @@
-btn-append'html {
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@-viewport { width: device-width; scale: 1; }
+
+html {
   background-color: #e2e2e2;
 }
 
@@ -37,6 +43,7 @@ div {
 
 .js-btn-show-hide {
     opacity: 1;
+}    
 
 .diamond {
   height: 80px;
@@ -152,6 +159,15 @@ div {
   100% {
     max-height: 38px;
   }   
+}
+    
+@keyframes drop-down {
+  0% {
+    max-height:0;
+  }
+  100% {
+    max-height: 38px;
+  }
 }
 .list li {
   padding: 0.5em;
