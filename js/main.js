@@ -9,30 +9,31 @@ var $circle = $('.circle');
 var $btnAppend = $('.btn-append');
 var $list = $('.list');
 
-$btnShowHide.on('click' function (){
-$box.toggleClass('js-btn-show-hide');
+$btnShowHide.on('click', function (){
+    $box.toggleClass('js-btn-show');
 //console.log ('btnShowHide');
 });
 
 $btnMove.on('click', function () {
- $diamond.toggleClass('js-panel');
+    $diamond.toggleClass('js-move');
 });
 
 $btnCollapseExpand.on('click',function () {
-$panel.toggleClass('js-panel');
+    $panel.toggleClass('js-panel-collapse');
 });
 
 $btnBounce.on('click', function (){
-$circle.addClass('js-circle-bounce');
+    $circle.addClass('js-ball-bounce');
 });
 
-$circle.on('webkitAnimationEnd animationed', function (){
-$circle.removeClass('js-circle-bounce');
+$circle.on('webkitAnimationEnd animationed', function () {
+    $circle.removeClass('js-ball-bounce');
 });
 
 $btnAppend.on('click', function (){
-var $li = $('<li>');
-$li.html('New List Item');
-$list.prepend($li);
-$li.addClass('js-list-down');
+
+    var $li = $('<li>').html('New List Item');
+
+    $list.prepend($li);
+    $li.toggleClass('js-list-append');
 });

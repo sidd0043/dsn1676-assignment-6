@@ -39,9 +39,10 @@ div {
   background-color: limegreen;
   transition: all 500ms ease-in-out;
   opacity: 0;
+  overflow: hidden;
 }
 
-.js-btn-show-hide {
+.js-btn-show {
     opacity: 1;
 }    
 
@@ -55,7 +56,7 @@ div {
   transition: all 500ms linear;
 }
     
-.js-diamond {
+.js-move {
   right: 3em;
 }
 
@@ -71,7 +72,7 @@ div {
   text-align: center;
 }
 
-.js-panel {
+.js-panel-collapse {
   max-height: 250px;
 }
     
@@ -89,7 +90,7 @@ div {
   border-radius: 50%;
 }
     
-.js-circle-bounce {
+.js-ball-bounce {
   -webkit-animation: circle-bounce 1.5s linear;
   animation: circle-bounce 1.5s linear;
 }
@@ -147,7 +148,7 @@ div {
   overflow-y: auto;
 }
     
-.js-list-down{
+.js-list-append{
   -webkit-animation: drop-down 250ms linear;
   animation: drop-down 250ms linear;
 }
