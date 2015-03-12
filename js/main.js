@@ -26,3 +26,6 @@ $btnBounce.on('click', function (){
 $circle.addClass('js-circle-bounce');
 });
 
+$circle.on('webkitAnimationEnd animationed', function (){
+$circle.removeClass('js-circle-bounce');
+});
