@@ -5,5 +5,5 @@ var $diamond = $('.diamond');
 var $btnCollapseExpand = $('.btn-collapse-expand');
 var $panel = $('.panel');
 var $btnBounce = $('.btn-bounce');
-
+var $circle = $('.circle');
 
